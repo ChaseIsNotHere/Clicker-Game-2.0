@@ -6,19 +6,19 @@
     </head>
     <script src="/scripts/building.js"></script>
     <script src="/scripts/script.js"></script>
+    <div class="myDiv">
     <body>
         <main>
             <h1>Score:</h1>
-            <h2 id="score">0</h2>
-            <button type="button" onclick="scorePlusPlus()">Click Me!</button>
+            <h2 id="scoreText">0</h2>
+            <button class="button" onclick="scoreButton()">Click Me!</button>
             <br />
             <button
                 type="button"
                 id="buySingleCursor"
-                onclick="cursor.purchase()"
-            >
-                Buy Cursor
+                onclick="cursor.purchase()">Buy Cursor (Cost: $45) Adds $0.1 Per Second 
             </button>
         </main>
     </body>
+</div>
 </html>
